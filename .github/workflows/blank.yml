@@ -36,7 +36,7 @@ jobs:
           echo test, and deploy your project. >> test.txt
           
       - name: Upload Artifacts
-        uses: actions/upload-artifacts@2
+        uses: actions/upload-artifact@2
         with:
           name: assets-for-download
           path: test.txt
